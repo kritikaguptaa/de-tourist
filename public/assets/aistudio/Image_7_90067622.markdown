@@ -1,0 +1,220 @@
+---
+name: Warm Editorial Scrapbook
+colors:
+  surface: '#fff8ef'
+  surface-dim: '#e0d9cd'
+  surface-bright: '#fff8ef'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#faf3e7'
+  surface-container: '#f4ede1'
+  surface-container-high: '#eee7db'
+  surface-container-highest: '#e9e2d6'
+  on-surface: '#1e1b14'
+  on-surface-variant: '#57423d'
+  inverse-surface: '#333028'
+  inverse-on-surface: '#f7f0e4'
+  outline: '#8a726c'
+  outline-variant: '#dec0b9'
+  surface-tint: '#a23e24'
+  primary: '#9f3b22'
+  on-primary: '#ffffff'
+  primary-container: '#bf5337'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#ffb4a2'
+  secondary: '#446650'
+  on-secondary: '#ffffff'
+  secondary-container: '#c6ecd0'
+  on-secondary-container: '#4a6c56'
+  tertiary: '#1e6285'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#3d7ba0'
+  on-tertiary-container: '#fcfcff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbd2'
+  primary-fixed-dim: '#ffb4a2'
+  on-primary-fixed: '#3c0800'
+  on-primary-fixed-variant: '#82270f'
+  secondary-fixed: '#c6ecd0'
+  secondary-fixed-dim: '#aacfb5'
+  on-secondary-fixed: '#002111'
+  on-secondary-fixed-variant: '#2d4e3a'
+  tertiary-fixed: '#c7e7ff'
+  tertiary-fixed-dim: '#93cdf6'
+  on-tertiary-fixed: '#001e2e'
+  on-tertiary-fixed-variant: '#004c6c'
+  background: '#fff8ef'
+  on-background: '#1e1b14'
+  surface-variant: '#e9e2d6'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 48px
+    fontWeight: '600'
+    lineHeight: 56px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 24px
+    fontWeight: '500'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 28px
+  body-lg:
+    fontFamily: DM Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: DM Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: DM Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-md:
+    fontFamily: DM Sans
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  ticket-data:
+    fontFamily: Space Mono
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.04em
+  ticket-data-sm:
+    fontFamily: Space Mono
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-desktop: 2rem
+  margin: 1.5rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system pairs the tactile authenticity of archival travel journals with the precise ergonomic demands of a high-performance desktop web app. The aesthetic balances physical nostalgia—creamy heavy stock paper, gentle ticket perforations, postal stamps, and polaroid proportions—against razor-sharp typographic hierarchy and immediate digital utility.
+
+### Emotional Disposition
+- **Curated & Mindful:** Slow travel values embedded directly into interface pacing, avoiding high-urgency badges or gamified noise.
+- **Physicality & Texture:** Evokes archival ephemera, hand-stamped documents, and curated guidebooks without compromising desktop speed and accessibility.
+- **Precision Utility:** Clean, unambiguous information density for routes, schedules, and itinerary logs.
+
+### Aesthetic Methodology
+The aesthetic draws on warm tactile minimalism mixed with editorial cartography. Visual noise is minimized by trading saturated gradients and glowing blur effects for layered off-white paper stocks, subtle grain-tinted borders, and intentional hairline rules.
+
+## Colors
+
+The palette is rooted in sunbaked mineral pigments and natural paper fibers, steering clear of stark digital blues or ungrounded synthetic hues.
+
+### Primary & Day Indicators
+- **Primary / Terracotta (`#E26D4F`):** Core interactive focus, primary actions, callouts, and Day 1 itinerary markers.
+- **Secondary / Sage (`#8FB39A`):** Ecological notes, nature-focused landmarks, and Day 2 itinerary routes.
+- **Tertiary / Sky (`#6BA6CD`):** Waterways, transit links, and Day 3 itinerary events.
+- **Accent / Sun (`#F2B84B`):** Golden hour alerts, highlighted moments, and leisure indicators.
+
+### Neutrals & Surfaces
+- **Base Canvas (`#F6F1E7`):** Warm cream foundation resembling untreated book paper.
+- **Card & Canvas Highlight (`#FFFFFF`):** Bleached stationery white for elevated cards and polaroid frames.
+- **Surface Muted (`#FAF7F2`):** Low-contrast grouped containers.
+- **Border / Edge (`#E6DFD3`):** Warm deckled edges and card delineators.
+- **Ink Primary (`#111827`):** Deep carbon ink for headline precision and high legibility.
+- **Ink Secondary (`#1F2A37`):** Slightly softened text for metadata, captions, and body copy.
+
+## Typography
+
+The typographical structure creates an immediate tension between the human literary cadence of travel memoirs and the rigid telemetry of transit timetables.
+
+- **Headlines (Playfair Display):** High-contrast, editorial elegance used exclusively for destination names, chapter headers, and storytelling narrative blocks.
+- **Interface & Content Body (DM Sans):** Neutral, open geometric sans-serif that ensures rapid readability across dense travel logs, forms, and desktop control panels.
+- **Telemetry & Schedule Data (Space Mono):** Used for departure times, coordinates, buffer windows, ticket numbers, and cost breakdowns to evoke physical stamps, receipts, and boarding passes.
+
+## Layout & Spacing
+
+The layout operates on a desktop-first fluid structure bounded within maximum readable constraints, reminiscent of broadsheet magazines or open atlas layouts.
+
+- **Grid Structure:** A 12-column responsive layout with fixed proportions on desktop (`max-w-7xl`), splitting cleanly between an interactive cartographic/scrapbook canvas and an itinerary timeline.
+- **Rhythm:** Generous margins simulate the empty matte borders of art albums. Elements maintain structured vertical gaps using the 8px baseline (`space-xs` through `space-xl`).
+- **Reflow & Responsiveness:** Desktop side-by-side splits (Map & Feed) collapse gracefully into a stacked layout on viewports narrower than 1024px, maintaining consistent edge padding through adaptive margin tokens.
+
+## Elevation & Depth
+
+Rather than synthetic multi-color glow or high-blur drop shadows, visual depth is achieved through physical paper stratification and crisp, directional cast shadows.
+
+- **Paper Layering:** Surfaces build depth from the deep canvas (`#F6F1E7`) to mid-level panels (`#FAF7F2`) and foreground white cards (`#FFFFFF`).
+- **Shadow Signature:** Shadows feature a distinct warm tint and minimal diffusion:
+  - *Resting card:* `0 2px 4px rgba(31, 42, 55, 0.04), 0 8px 16px rgba(226, 109, 79, 0.03)`
+  - *Hovered/Lifted card:* `0 6px 12px rgba(31, 42, 55, 0.07), 0 16px 24px rgba(31, 42, 55, 0.05)`
+  - *Stamp/Pin elements:* Crisp `0 1px 2px rgba(31, 42, 55, 0.12)` offset mimicking inked relief.
+- **Structural Outlines:** Every card and modal is enclosed in a hairline `1px solid #E6DFD3` stroke, maintaining boundary clarity against tone-on-tone ivory backdrops.
+
+## Shapes
+
+The shape system favors restrained, tailored softness (`0.25rem` base, `0.5rem` on cards) echoing precision-trimmed stationery paper, rather than overly bulbous or bubble-like silhouettes.
+
+- **Cards & Modals (`rounded-lg` / 0.5rem):** Subtle paper corner rounding that avoids harsh razor edges while remaining crisp and structured.
+- **Polaroid Framing:** Generous asymmetric bottom padding (`space-xl`) inside cards, paired with compact horizontal and top margins, reproducing classic photo borders.
+- **Perforated Edges:** Applied to boarding-pass cards and day dividers using small radial mask cutouts (`mask-image: radial-gradient`) or subtle dashed border dividers with a warm ink hue.
+
+## Components
+
+### Buttons
+- **Primary:** Terracotta background (`#E26D4F`), crisp white text (`#FFFFFF`), `rounded` (0.25rem), with an inner subtle paper-press stroke. Hover state transitions to a deepened clay tone (`#CF5A3D`).
+- **Secondary:** Off-white card surface (`#FFFFFF`), ink text (`#1F2A37`), framed in a `1px` border (`#E6DFD3`).
+- **Ghost / Utility:** Transparent background with subtle terracotta text and under-hover highlight tint (`rgba(226, 109, 79, 0.08)`).
+
+### Input Fields & Controls
+- **Text Inputs:** Pure white background (`#FFFFFF`) with warm cream border (`#E6DFD3`). Focus activates a 1px solid terracotta border with a 2px diffuse terracotta halo.
+- **Checkboxes & Radios:** Monospace-accented selection boxes with an ink checkmark; checked state fills with Terracotta (`#E26D4F`).
+
+### Cards & Polaroid Wrappers
+- **Scrapbook Cards:** Pure white core, bordered by `#E6DFD3`, layered with faint drop-shadow.
+- **Media Containers:** Image containers replicate polaroid prints with slightly desaturated tone mappings and uncropped aspects framed by an asymmetric bottom white lip.
+
+### Chips & Day Badges
+- **Day Markers:** Compact pill tags featuring `ticket-data` typography.
+  - Day 1: Terracotta background wash with solid `#E26D4F` text.
+  - Day 2: Sage wash with solid `#8FB39A` text.
+  - Day 3: Sky wash with solid `#6BA6CD` text.
+- **Category Chips:** Minimal outlines with uppercase monospace sizing and small circular ink bullets.
+
+### Transit & Buffer Indicators
+- **Buffer Gauges:** Horizontal connecting rules between nodes rendered as dashed tracks (`#E6DFD3`) interrupted by a centered Space Mono ticket badge denoting rest windows (e.g., `+45M CALM BUFFER`).

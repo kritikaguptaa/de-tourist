@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-paper: #F6F1E7;
+  --color-paper-muted: #FAF7F2;
+  --color-paper-edge: #E6DFD3;
+  --color-ink: #111827;
+  --color-ink-secondary: #1F2A37;
+  --color-ink-muted: #57423D;
+  --color-terracotta: #E26D4F;
+  --color-terracotta-hover: #CF5A3D;
+  --color-sage: #8FB39A;
+  --color-sage-deep: #446650;
+  --color-sky: #6BA6CD;
+  --color-sky-deep: #1E6285;
+  --color-sun: #F2B84B;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #F6F1E7;
+    color: #111827;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Warm Editorial Scrapbook shadows & paper textures */
+.paper-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E6DFD3;
+  box-shadow: 0 2px 4px rgba(31, 42, 55, 0.04), 0 8px 16px rgba(226, 109, 79, 0.03);
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.paper-card-interactive:hover {
+  box-shadow: 0 6px 12px rgba(31, 42, 55, 0.07), 0 16px 24px rgba(31, 42, 55, 0.05);
+}
+
+.stamp-shadow {
+  box-shadow: 0 1px 2px rgba(31, 42, 55, 0.12);
+}
+
+/* Subtle dot-grid atlas paper backdrop for map canvas */
+.atlas-grid-bg {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(#D8CFC0 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Ticket perforation divider */
+.ticket-perforation {
+  position: relative;
+  border-top: 1px dashed #E6DFD3;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .paper-card,
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
